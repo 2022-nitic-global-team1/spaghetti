@@ -2,7 +2,6 @@ int TRIG = 0;
 int ECHO = 1;
 int get_thermoPin = 2; // 体温受け取り用
 int raspy_thermoPin = 3; // raspyへの体温出力用
-int check = 4;
 
 double duration = 0;
 double distance = 0;
@@ -10,7 +9,6 @@ double speed_of_sound = 331.5 + 0.6 * 15; // 15℃の気温の想定
 double thermo = 0;
 double get_thermo = 0;
 double raspy_thermo = 0;
-double checking = 0;
 
 void setup(){
   Serial.begin( 9600 );
